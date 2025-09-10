@@ -1,0 +1,42 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# ---- Virtual Environments ----
+env/
+venv/
+rag/
+.venv/
+*.pth
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+
+# ---- Large model/data files ----
+*.pkl
+*.h5
+*.pt
+*.bin
+*.ckpt
+*.dylib
+
+# ---- Git ----
+.gitmodules
